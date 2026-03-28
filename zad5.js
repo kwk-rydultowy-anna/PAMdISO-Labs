@@ -13,7 +13,7 @@ const tasks2 = [
 ];
 
 const createDayPlan = (name, tasks = tasks1) => {
-  return `Cześć ${name}! Oto twój plan dnia: ${tasks.map(({ task, hour }) => `\n${task} o godzinie ${hour}`).join(', ')}.\n ${tasks.length > 2 ? 'Obfity dzień. Powodzenia!' : 'Może dorzucisz coś jeszcze?'}`;
+  return `Cześć ${name}! Oto twój plan dnia: ${tasks.map(({ task, hour }) => `\n${task} o godzinie ${hour}`).join(',')}.\n ${tasks.length > 2 ? 'Obfity dzień. Powodzenia!' : 'Może dorzucisz coś jeszcze?'}`;
 };
 
 console.log(createDayPlan('Jakub'));

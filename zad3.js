@@ -33,7 +33,7 @@ console.log(
       }
       return `\n${el.unitAmount} ${el.units} produktu ${el.name}`;
     })
-    .join(', ')}`,
+    .join(',')}`,
 );
 
 /**
