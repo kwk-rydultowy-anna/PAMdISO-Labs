@@ -37,6 +37,9 @@ const getUndoneTasks = () => todos.filter((task) => !task.done);
  */
 const getImportantTasks = () => todos.filter((task) => task.important);
 
+/**
+ * Funkcja pomocnicza do generowania tekstu w konsoli
+ */
 const getText = (list) => {
   const yesNo = (bool) => (bool ? 'tak' : 'nie');
   return list
