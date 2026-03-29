@@ -52,3 +52,7 @@ console.log(
 console.log(
   `Zajęcia tylko stacjonarne: ${getScheduleText(getOnlyStationary())}`,
 );
+
+console.log(
+  `Zajęcia tylko w poniedziałek ${getScheduleText(getSubjectForDay('poniedziałek'))}`,
+);
